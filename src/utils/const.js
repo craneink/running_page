@@ -14,7 +14,7 @@ const MUNICIPALITY_CITIES_ARR = [
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) =>
-  `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
+  `我用 App 记录自己跑步骑行 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
 
@@ -47,7 +47,7 @@ export {
 };
 
 export const AVATAR =
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU'; // Temp avatar
+  'https://moxuancn.oss-cn-beijing.aliyuncs.com/moxuancn/uploads/2021/04/running-page.png'; // Temp avatar
 export const NAVS = [
   { text: '安贞桥偏北', link: 'https://www.moxuancn.com/' },
 
